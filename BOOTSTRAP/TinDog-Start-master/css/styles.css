@@ -1,0 +1,112 @@
+
+body{
+    font-family: "Montserrat-light", sans-serif;
+}
+/* in order to target id we put # sign in front*/
+#title{
+    background-color : #FF616D;
+    /* we are changing the color of h1 in title because, h1 resides in title and if   */
+     /* later on if we want to create some subtitles and other infomration then that
+     will also remain White if we define color of the whole title box  */
+    color : #fff;
+}
+
+.container-fluid{
+    padding : 3% 15%;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size : 3.5rem;
+    line-height : 1.5;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size : 3rem;
+    line-height : 1.5;
+}
+h3{
+    font-family : "Montserrat", sans-serif;
+    font-size : 1.5rem;
+}
+p{
+    color : #8f8f8f;
+}
+.navbar{
+    /* padding up, left and right, bottom */
+     padding : 0 0 4.5rem;
+
+}
+/* Navigation bar font change*/
+.navbar-brand{
+    font-family : "Ubuntu";
+    font-size : 2.5rem;
+    font-weight : bold;
+}
+/* padding in bottom of nav bar */
+.nav-item{
+    padding : 0 18px;
+}
+
+/* making elements of nav bar large and light */
+.nav-link{
+     font-size : 1.2rem;
+     font-family : "Montserrat-light";
+}
+
+/* creating spaces between download  buttons */
+.download-button{
+    margin : 5% 3% 5% 0;
+}
+.title-image{
+    width : 60%;
+    /* rotate the image using transform property */
+    transform : rotate(25deg);
+}
+/* features section */
+#features{
+    padding : 7% 15%;
+}
+
+.features-box{
+    text-align : center;
+    padding : 5%;
+}
+
+.icon{
+    color : #ef8172;
+    margin-bottom : 1rem;
+
+}
+/* change the hover state of icons */
+.icon:hover{
+    color : #ff4c68;
+}
+
+/* testimonial section */
+
+#testimonials{
+
+    text-align : center;
+    background-color : #ef8172;
+    color :#fff;
+}
+
+.testimonial-image{
+    width : 10%;
+    border-radius: 100%;
+    margin : 20px;
+}
+
+.carousel-item{
+    padding : 7% 15%;
+}
+#press{
+    background-color : #ef8172;
+    text-align : center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width : 15%;
+    margin : 20px 20px 50px;
+}
