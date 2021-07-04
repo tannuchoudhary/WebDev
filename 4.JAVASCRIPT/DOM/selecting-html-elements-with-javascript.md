@@ -77,6 +77,17 @@ output will be
 ```
 ## getElementsByClassName
 
+The same goes with the class, you can't select the whole item and manipulate it, you have to choose the array index, for e.g
+```javascript
+document.getElementsByClassName("btn").style.color="red";
+```
+this will give an error because in the above code, there is only one button and in the created array there will be only one element but still you have to choose the index of element, somehting like this:
+
+```javascript
+document.getElementsByClassName("btn")[0].style.color="red";
+```
+this will make the color of the text in the button as red
+
 
 
 
