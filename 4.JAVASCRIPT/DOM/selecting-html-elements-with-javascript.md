@@ -37,3 +37,4 @@
     * getElementsByClassName
     * getElementByID
 
+## * getElementsByTagName:
