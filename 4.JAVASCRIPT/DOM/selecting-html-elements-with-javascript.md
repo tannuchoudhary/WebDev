@@ -30,4 +30,10 @@
 
 </html>
 ```
+## you can select and manipulate items by query selector or get elements let's see how to manipulate using getElement:
+
+* we can get elements by:
+    * getElementsByTagName
+    * getElementsByClassName
+    * getElementByID
 
