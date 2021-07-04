@@ -140,16 +140,24 @@ select class of item having li as element
 ```javascript
 document.querySelector("li.item");
 ```
-as both are in same hierarchy therefore, no spaces
+as we are combining selectors, therefore things occur in the same elemnt therefore no spaces and hierarchy is same, i.e list item that has class = item
 output
 ```javascript
 <li class="item"><a href="https://www.google.com">Google</a></li>
 ```
+### for selecting by combining id and selectors
+```javascript
+document.querySelector("#list.item");
+```
+we are looking for an anchor tag that is inside somehting that has an id of list
 
 
+Now the question is, what if your selctor matches more than one content, for e.g there are many lists with class name as item, then which one will get back, the answer is the first one, yes you will always get the first item in the document that satisfies the selectors. now what if we want all of them which matches selectors, then we have to add something in our code, add "All" inquery selector=
 
 
-
+```javascript
+document.querySelectorAll("#list.item");
+```
 
 
 
