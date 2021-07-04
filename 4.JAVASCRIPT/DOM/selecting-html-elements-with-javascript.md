@@ -117,9 +117,47 @@ we have to use # sign for id
 document.querySelector(".btn");
 ```
 
-### for selecting link inside a list item
+### for selecting link inside a list element
 select the anchor tag inside the list selector
 ```javascript
 document.querySelector("li a");
 ```
+```javascript
+<a href="https://www.google.com">Google</a>
+```
 as this is hierarchical selector so there will be space between two selectors i.e "li a"
+
+### for selecting element
+```javascript
+document.querySelector("li a");
+```
+ouptut
+```javascript
+<a href="https://www.google.com">Google</a>
+```
+### for selecting by combining selectors
+select class of item having li as element
+```javascript
+document.querySelector("li.item");
+```
+as both are in same hierarchy therefore, no spaces
+output
+```javascript
+<li class="item"><a href="https://www.google.com">Google</a></li>
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
