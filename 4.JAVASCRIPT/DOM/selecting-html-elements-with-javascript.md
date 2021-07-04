@@ -110,11 +110,16 @@ document.querySelector("#title");
 we have to use # sign for id
 
 
+### for class
 
 
+```javascript
+document.querySelector(".btn");
+```
 
-
-
-
-
-
+### for selecting link inside a list item
+select the anchor tag inside the list selector
+```javascript
+document.querySelector("li a");
+```
+as this is hierarchical selector so there will be space between two selectors i.e "li a"
