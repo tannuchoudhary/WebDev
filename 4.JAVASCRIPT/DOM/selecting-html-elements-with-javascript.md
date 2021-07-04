@@ -1,3 +1,5 @@
+# In this we will learn how to select and manipulate HTML elements using Javascript
+
 ``` html
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
