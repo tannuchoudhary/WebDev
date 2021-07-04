@@ -41,11 +41,21 @@
 ```javascript
 document.getElementsByTagName("li");
 ```
-this will fetch all the list
-output:
+this will fetch all the list and output will be:
 ```javascript
 HTMLCollection(3) [li.item, li.item, li.item]
 ```
+now if we'll write this
+```javascript
+document.getElementsByTagName("li").style.color="purple";
+```
+it will give error bcz we are telling compiler to color all th list with purple, to color the list item we have to choose index from the list item, like this:
+```javascript
+document.getElementsByTagName("li")[2].style.color="purple";
+```
+this will color the 2nd index i.e the third item of list with purple
+
+
 
 
 
