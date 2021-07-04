@@ -55,7 +55,15 @@ document.getElementsByTagName("li")[2].style.color="purple";
 ```
 this will color the 2nd index i.e the third item of list with purple
 
-
+some more examples:
+* generate the length of the array list
+```javascript
+document.getElementsByTagName("li").length;
+```
+output will be
+```javascript
+3
+```
 
 
 
