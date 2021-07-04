@@ -30,6 +30,15 @@
 
 </html>
 ```
+```css
+h1 {
+  color: red;
+}
+```
+
+```javascript
+document.query
+```
 ## you can select and manipulate items by query selector or get elements let's see how to manipulate using getElement:
 
 * we can get elements by:
@@ -37,7 +46,7 @@
     * getElementsByClassName
     * getElementByID
 
-## getElementsByTagName:
+## getElementsByTagName
 ```javascript
 document.getElementsByTagName("li");
 ```
@@ -64,6 +73,7 @@ output will be
 ```javascript
 3
 ```
+## getElementsByClassName
 
 
 
