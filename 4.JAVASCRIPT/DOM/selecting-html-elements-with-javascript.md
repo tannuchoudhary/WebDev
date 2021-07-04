@@ -159,10 +159,34 @@ Now the question is, what if your selctor matches more than one content, for e.g
 document.querySelectorAll("#list.item");
 ```
 
+Here also you have to specify index to manipulate the data
+
+```javascript
+document.querySelectorAll("#list.item")[2].style.color="blue";
+```
+query selectors are generally used because they allow more complex queries as we are able to able to specify queries, ide class, element, class name, which helps us to target particularly whatever we want and it is difficult in other cases. 
+
+task: color the google link:
+we can color the google link using any of below
+
+```javascript
+document.querySelector(".item a").style.color="blue";
+```
+
+```javascript
+document.querySelector("li a").style.color="blue";
+```
+```javascript
+document.querySelector("#list a").style.color="blue";
+```
 
 
 
-
+if you will try to select the first list item i.e
+```javascript
+document.querySelector("li").style.color="blue";
+```
+then it will only change the color of the bullet point, and not the anchor tag, because anchor tag is different element
 
 
 
