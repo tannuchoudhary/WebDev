@@ -38,10 +38,14 @@
     * getElementByID
 
 ## getElementsByTagName:
-```document.getElementsByTagName("li");```
+```javascript
+document.getElementsByTagName("li");
+```
 this will fetch all the list
 output:
-```HTMLCollection(3) [li.item, li.item, li.item]```
+```javascript
+HTMLCollection(3) [li.item, li.item, li.item]
+```
 
 
 
