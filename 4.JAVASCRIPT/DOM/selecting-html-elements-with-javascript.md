@@ -1,5 +1,5 @@
 # In this we will learn how to select and manipulate HTML elements using Javascript
-
+## HTML
 ``` html
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -30,11 +30,13 @@
 
 </html>
 ```
+## CSS
 ```css
 h1 {
   color: red;
 }
 ```
+## Javascript
 
 ```javascript
 document.query
