@@ -41,14 +41,15 @@ h1 {
 ```javascript
 document.query
 ```
-## you can select and manipulate items by query selector or get elements let's see how to manipulate using getElement:
+## you can select and manipulate items by query selector or get elements let's see how to manipulate using getElementBy:
 
 * we can get elements by:
     * getElementsByTagName
     * getElementsByClassName
     * getElementByID
+## getElementBy
 
-## getElementsByTagName
+### getElementsByTagName
 ```javascript
 document.getElementsByTagName("li");
 ```
@@ -75,7 +76,7 @@ output will be
 ```javascript
 3
 ```
-## getElementsByClassName
+### getElementsByClassName
 
 The same goes with the class, you can't select the whole item and manipulate it, you have to choose the array index, for e.g
 ```javascript
@@ -88,9 +89,25 @@ document.getElementsByClassName("btn")[0].style.color="red";
 ```
 this will make the color of the text in the button as red
 
+### getElementByID
+We can see that here getElement is singular and not plural(i.e it is not getElements) like others, because we know that there are unique id's in web page
+
+Now let us see how to manipulate html elements using getElementByID 
+
+```javascript
+document.getElementById("title").innerHTML = "Good Bye;
+```
+this will change the Hello into Good Bye because 
 
 
+## Query selector
+As we saw that using getElement, we had to specify it differently for classes, id's and tags but in query selector everything will be specified using only one syntax
 
+### for id
+```javascript
+document.querySelector("#title");
+```
+we have to use # sign for id
 
 
 
