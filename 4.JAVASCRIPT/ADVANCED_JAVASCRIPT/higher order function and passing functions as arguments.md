@@ -56,13 +56,13 @@ function calculator(num1, num2, operator){
 * we will call same function and passing different parameter for different operation
 * that parameter will be operator  function and that will get attached in front of called function
 
-//we can go to debugger mode by printing
+* we can go to debugger mode by printing
 debugger; //in console and then hold shift and write the function you want to debug, e.g
 calculator(3, 4, multiply);
-//now click the arrow dot in right side and you can see what values are returned by or asisgned to each var and function by computer
+* now click the arrow dot in right side and you can see what values are returned by or asisgned to each var and function by computer
 
-// ----------------------------------------------------------------------------------------------------------
-// CONCLUSION : 
+ ----------------------------------------------------------------------------------------------------------
+* CONCLUSION : 
 
 "Higher order functions are functions that can take other functions as input"
 
