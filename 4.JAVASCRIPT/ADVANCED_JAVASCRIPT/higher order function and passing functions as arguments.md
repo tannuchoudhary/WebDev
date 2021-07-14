@@ -33,12 +33,12 @@ function respondToClick(){
 }
 ```
 
-//we can see that the event listener is taking two inputs, first what event shound listen to 
-//and second one specifying what it should do once that event gets detected
-//we can see that this eventListener function is little bit different, instead of passing 
-//integers or characters as parameter, we are passing numbers
+* we can see that the event listener is taking two inputs, first what event shound listen to 
+* and second one specifying what it should do once that event gets detected
+* we can see that this eventListener function is little bit different, instead of passing 
+* integers or characters as parameter, we are passing numbers
 
-//now let us understand the use of passing functions in parameter by taking one more example
+* now let us understand the use of passing functions in parameter by taking one more example
 ```javascript
 function add(num1, num2){
 return num1 + num2;
@@ -52,9 +52,9 @@ function calculator(num1, num2, operator){
     return operator(num1, num2);
 }
 ```
-//i can create a calcultor by adding different functions, and instead of calling different functions
-//we will call same function and passing different parameter for different operation
-//that parameter will be operator  function and that will get attached in front of called function
+* i can create a calcultor by adding different functions, and instead of calling different functions
+* we will call same function and passing different parameter for different operation
+* that parameter will be operator  function and that will get attached in front of called function
 
 //we can go to debugger mode by printing
 debugger; //in console and then hold shift and write the function you want to debug, e.g
