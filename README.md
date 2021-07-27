@@ -1,2 +1,4 @@
 # WebDev
-As I have started learning Web Development, therefore I am going to put all my projects here in series.
+I am going to put here all my important points, snippets, handy codes, and all my little work which I learned while I was learning web development, so that future me can come here and appreciate the past me😄
+
+Thank You Tannu! 🙈
